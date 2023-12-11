@@ -1,16 +1,4 @@
 {
-  "name": "corsproxyserver",
-  "version": "1.0.0",
-  "description": "CORS Proxy Server for Vercel",
-  "main": "proxy.js",
-  "scripts": {
-    "start": "node proxy.js"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "axios": "^0.24.0"
-  },
-  "engines": {
-    "node": "20.x"
-  }
+  "version": 2,
+  "builds": [{ "src": "nuxt.config.js", "use": "@nuxt/vercel-builder" }]
 }
