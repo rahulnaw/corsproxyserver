@@ -1,4 +1,5 @@
 {
-  "version": 2,
-  "builds": [{ "src": "nuxt.config.js", "use": "@nuxt/vercel-builder" }]
+  "name": "my-nuxt-project",
+  "version": "1.0.0",
+  // other fields...
 }
