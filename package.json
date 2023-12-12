@@ -1,5 +1,8 @@
 {
-  "name": "my-nuxt-project",
+  "name": "corsproxyserver",
   "version": "1.0.0",
-  // other fields...
+  "dependencies": {
+    // your dependencies
+  },
+  // other fields
 }
